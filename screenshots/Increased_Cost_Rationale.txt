@@ -1,0 +1,25 @@
+As budgest is increased from $6,500 to a maximum of $20,000, I have decided to increase the capacity of Web , application and DB.Due to this , there will be better performance than before.
+
+For application server , I have reduced the capacity:
+
+(From)
+Reduced - t3.large,8gb,2vcpu,upto 5gigabit network perf , Instance 2 to 20
+(To)
+Increased - m4.4xlarge,16vcpu,High network performance, Instance 2 to 22
+
+For Web server , I have reduced the capacity:
+
+(From)
+Reduced - t3.large,8gb,2vcpu,upto 5gigabit network perf , Instance 2 to 20
+(To)
+Increased - t3.2xlarge,32gb,8vcpu,upto 5gigabit network perf , Instance 2 to 25
+
+For DB, I have reduced the capacity slightly as:
+
+(From)
+Reduced - m1.large,2vcpu,7.5gb memory , Provisioned IOPS 3500
+(To)
+Increased -m2.4xlarge,8vcpu,68gb memory ,Provisioned IOPS 5000
+
+
+

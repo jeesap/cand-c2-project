@@ -1,0 +1,27 @@
+As budgest is reduced from $8,000-$10,000 to a maximum of $6,500, I have decided to lower the capacity of Web , application and DB.Due to this , there can be a slightly reduced performance than before. However , impact may not be noticed that significantly unless number of users go up than average.
+
+For application server , I have reduced the capacity:
+
+(From)
+Initial - m4.large,8gb,2vcpu,moderate network performance , Instance 2 to 20
+(To)
+Reduced - t3.large,8gb,2vcpu,upto 5gigabit network perf , Instance 2 to 20
+
+For Web server , I have reduced the capacity:
+
+(From)
+Initial - t3.xlarge,16gb,4vcpu,upto 5gigabit network perf , Instance 2 to 20
+
+(To)
+Reduced - t3.large,8gb,2vcpu,upto 5gigabit network perf , Instance 2 to 20
+
+For DB, I have reduced the capacity slightly as:
+
+(From)
+Initial - m1.xlarge,2vcpu,7.5gb memory , Provisioned IOPS 4000
+(To)
+Reduced - m1.large,2vcpu,7.5gb memory , Provisioned IOPS 3500
+
+These changes have made the budget from 8,424.51 USD to 6,476.63 USD
+
+
