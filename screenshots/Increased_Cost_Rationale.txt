@@ -12,14 +12,14 @@ For Web server , I have reduced the capacity:
 (From)
 Reduced - t3.large,8gb,2vcpu,upto 5gigabit network perf , Instance 2 to 20
 (To)
-Increased - t3.2xlarge,32gb,8vcpu,upto 5gigabit network perf , Instance 2 to 25
+Increased - t3.2xlarge,32gb,8vcpu,upto 5gigabit network perf , Instance 2 to 20
 
 For DB, I have reduced the capacity slightly as:
 
 (From)
-Reduced - m1.large,2vcpu,7.5gb memory , Provisioned IOPS 3500
+Reduced - m1.large,2vcpu,7.5gb memory , Provisioned IOPS 2800
 (To)
-Increased -m2.4xlarge,8vcpu,68gb memory ,Provisioned IOPS 5000
+Increased -m2.4xlarge,8vcpu,68gb memory ,Provisioned IOPS 6000
 
 
 
