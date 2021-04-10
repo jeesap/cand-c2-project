@@ -20,8 +20,8 @@ For DB, I have reduced the capacity slightly as:
 (From)
 Initial - m1.xlarge,2vcpu,7.5gb memory , Provisioned IOPS 4000
 (To)
-Reduced - m1.large,2vcpu,7.5gb memory , Provisioned IOPS 3500
+Reduced - m1.large,2vcpu,7.5gb memory , Provisioned IOPS 2800
 
-These changes have made the budget from 8,424.51 USD to 6,476.63 USD
+These changes have made the budget from 8,395.37 USD to 6,481.79 USD
 
 
