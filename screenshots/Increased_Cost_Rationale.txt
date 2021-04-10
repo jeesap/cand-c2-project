@@ -5,7 +5,7 @@ For application server , I have reduced the capacity:
 (From)
 Reduced - t3.large,8gb,2vcpu,upto 5gigabit network perf , Instance 2 to 20
 (To)
-Increased - m4.4xlarge,16vcpu,High network performance, Instance 2 to 22
+Increased - m4.4xlarge,16vcpu,High network performance, Instance 2 to 20
 
 For Web server , I have reduced the capacity:
 
