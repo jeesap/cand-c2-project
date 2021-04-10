@@ -8,7 +8,8 @@ My Estimate,US East (N. Virginia),RDS,Amazon RDS for MySQL,0,2972.8,35673.60,USD
 My Estimate,US East (N. Virginia),LB,Application Load Balancer,0,472.27,5667.24,USD,Number of Application Load Balancers (1)
 My Estimate,US East (N. Virginia),LB,Network Load Balancer,0,139.31,1671.72,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (20 TB per month), Average number of new TCP connections (10 per minute), Average TCP connection duration (5 minutes)"
 My Estimate,US East (N. Virginia),App Server,Amazon EC2,0,846.38,10156.56,USD,"Operating system (Linux), Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 2, Peak: 20, Duration of peak: 12 Hr 0 Min)), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Advance EC2 instance (m4.large), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront)"
-
+---
+Total - 8,362.52 USD
 
 
 Acknowledgement
