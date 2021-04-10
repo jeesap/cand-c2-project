@@ -1,0 +1,15 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),VPC,Amazon Virtual Private Cloud (VPC),0,2369.7,28436.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),S3,S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),S3,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),Web,Amazon EC2,0,2589.9120000000003,31078.94,USD,"Operating system (Linux), Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 2, Peak: 20, Duration of peak: 12 Hr 0 Min)), Advance EC2 instance (t3.2xlarge), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
+My Estimate,US East (N. Virginia),elastic IP,Amazon Elastic IP,0,15,180.00,USD,"Number of EC2 instances (4), Number of EIPs per instance (1), Number of EIP remaps (4)"
+My Estimate,US East (N. Virginia),RDS,Amazon RDS for MySQL,0,6269.4,75232.80,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (30 GB), Provisioning IOPS (6000), Quantity (2), Instance type (db.m2.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),LB,Application Load Balancer,0,472.27,5667.24,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),LB,Network Load Balancer,0,139.31,1671.72,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (20 TB per month), Average number of new TCP connections (10 per minute), Average TCP connection duration (5 minutes)"
+My Estimate,US East (N. Virginia),App Server,Amazon EC2,0,6078.436,72941.23,USD,"Operating system (Linux), Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 2, Peak: 20, Duration of peak: 12 Hr 0 Min)), Advance EC2 instance (m4.4xlarge), Pricing strategy (EC2 Instance Savings Plans 1 Year  None upfront), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
